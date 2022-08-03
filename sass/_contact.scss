@@ -1,0 +1,153 @@
+$font-family: 'Yellowtail',
+cursive;
+
+
+.contact {
+    background:
+
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+
+        url(../img/contactbgi.jpg);
+    color: white;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+.architect {
+
+    &-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__name {
+        font-size: 2.5rem;
+        font-family: 'Yellowtail', cursive;
+        letter-spacing: 5px;
+        font-weight: normal;
+        margin: 2rem 0;
+    }
+
+    &-details {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.emailus {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.email {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.email-form-box {
+    margin: 6rem 0;
+}
+
+.direct-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.direct-form input,
+textarea {
+    width: 100%;
+    max-width: 250px;
+    min-width: 250px;
+    padding: .5rem;
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    background: rgba(255, 255, 255, 0.35);
+    font-weight: bold;
+    transition: background-color .3s;
+
+    &::placeholder {
+
+        font-family: 'Poppins', sans-serif;
+        color: rgb(197, 197, 197);
+    }
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.47);
+        cursor: pointer;
+    }
+}
+
+.submit-button {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+@media (min-width: 576px) {
+
+    .contact {
+        background:
+            url(../img/contactBig.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactus {
+        display: flex;
+        flex-direction: row;
+        padding: 15rem 0;
+    }
+
+    .contactus-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 50%;
+        height: 100%;
+        min-height: 478px;
+
+        background-color: rgba(0, 0, 0, 0.599);
+        padding: 2rem;
+
+    }
+
+    .email-form-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 50%;
+        height: 100%;
+        min-height: 478px;
+        padding: 2rem;
+        margin: 0;
+    }
+}

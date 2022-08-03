@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Stint+Ultra+Expanded&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14a589f89a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>DN Architektuta wnętrz Portfolio</title>
+</head>
+
+<body>
+
+    <!-- NAWIGACJA -->
+    <nav class="nav">
+        <div class="nav-mobile ">
+            <div class="nav-mobile__items">
+                <a href="/index.html" class="nav-mobile__item">O nas</a>
+                <a href="./portfolio.html" class="nav-mobile__item">Portfolio</a>
+                <a href="#" class="nav-mobile__item">Oferta</a>
+                <a href="./contact.html" class="nav-mobile__item">Kontakt</a>
+            </div>
+        </div>
+        <div class="wrapper wrapper--flex">
+            <div class="nav-logo">
+                <img class="nav-logo__image" src="./img/dnlogo.png" alt="logo firmy DN Architektura wnętrz">
+            </div>
+            <button class="burger-btn">
+                <div class="burger-btn__box">
+                    <div class="burger-btn__bars"></div>
+                </div>
+            </button>
+            <div class="social-media">
+                <a class="social-media__link" href="https://www.instagram.com/dnarchitekturawnetrz.pl"
+                    target="_blank"><img class="social-media__icon" src="/img/instagramIcon.png" alt=""></a>
+                <a class="social-media__link" href="https://www.facebook.com/dnarchitekturawnetrz/" target="_blank"><img
+                        class="social-media__icon" src="/img/facebookIcon.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAWIGACJA -->
+    <!-- NAV DESKTOP -->
+
+    <nav class="nav-desktop">
+        <div class="nav-logo">
+            <a href="./index.html"><img class="nav-logo__image" src="./img/dnlogo.png"
+                    alt="logo firmy DN Architektura wnętrz"></a>
+        </div>
+        <div class="nav-desktop__links">
+            <a class="nav-desktop__link" href="./index.html">O nas</a>
+            <a class="nav-desktop__link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-desktop__link" href="#">Oferta</a>
+            <a class="nav-desktop__link" href="./contact.html">Kontakt</a>
+        </div>
+        <div class="social-media">
+            <a class="social-media__link" href="https://www.instagram.com/dnarchitekturawnetrz.pl" target="_blank"><img
+                    class="social-media__icon" src="/img/instagramIcon.png" alt=""></a>
+            <a class="social-media__link" href="https://www.facebook.com/dnarchitekturawnetrz/" target="_blank"><img
+                    class="social-media__icon" src="/img/facebookIcon.png" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- END NAV DESKTOP -->
+
+    <!-- MAIN -->
+    <main class="main">
+        <section class="portfolio section">
+            <div class="wrapper">
+                <h2 class="section-heading">Portfolio</h2>
+                <div class="line-horizontal"></div>
+                <h3 class="section-subheading">Aranżacje wnętrz</h3>
+            </div>
+
+
+
+            <ul class="gallery">
+                <li class="thumbnail"><img tabindex='0' src="img/images/1.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/2.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/3.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/4.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/5.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/6.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/7.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/8.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/9.png" alt=""></li>
+                <li class="thumbnail"><img tabindex='0' src="img/images/10.png" alt=""></li>
+            </ul>
+
+            
+            <div class="popup hidden">
+                <button aria-label="Zamknij popup" class="popup__close">X</button>
+                <img src="" alt="" class="popup__img">
+                <button aria-label='Poprzednie zdjęcie' class="popup__arrow popup__arrow--left">&lt;</button>
+                <button aria-label='Następne zdjęcie' class="popup__arrow popup__arrow--right">&gt;</button>
+            </div>
+
+
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title">DN Architektura wnętrz</h3>
+                    <div class="footer__box-social">
+                        <a href="https://www.instagram.com/dnarchitekturawnetrz.pl" class="footer__box-link"
+                            target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.facebook.com/dnarchitekturawnetrz/" class="footer__box-link"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> DN Architektura wnętrz</p>
+    </footer>
+
+    <!-- END FOOTER -->
+    <script src="js/nav.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>
